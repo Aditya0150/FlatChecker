@@ -1,0 +1,149 @@
+/* General Body Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: #1a237e;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+/* Homepage Styling */
+.home {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home h1 {
+  color: #1a237e;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Contact and Schedule Pages Styling */
+.contact, .schedule {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.contact h1, .schedule h1 {
+  color: #1a237e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p, .schedule p {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Button Styling */
+button {
+  background-color: #ffc107;
+  color: #1a237e;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ffb300;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #1a237e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+/* Service Availability Styling */
+.service-availability {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.service-availability h1 {
+  color: #1a237e;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.service-availability p {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.service-availability ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+  display: inline-block;
+}
+
+.service-availability li {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home, .contact, .schedule {
+    padding: 2rem 1rem;
+  }
+
+  .home h1, .contact h1, .schedule h1 {
+    font-size: 2rem;
+  }
+}

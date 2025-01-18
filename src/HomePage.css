@@ -1,0 +1,27 @@
+/* HomePage.css */
+.homepage {
+    background-image: url('../public/images/interior.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .homepage-content {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .homepage-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .homepage-content p {
+    font-size: 1.25rem;
+  }
+  
