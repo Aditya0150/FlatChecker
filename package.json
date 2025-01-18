@@ -1,4 +1,4 @@
-{  "proxy":"https://flatcheckerbackend-production.up.railway.app/",
+{  
   "name": "flatchecker",
   "version": "0.1.0",
   "private": true,
