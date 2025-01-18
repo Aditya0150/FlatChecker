@@ -18,7 +18,7 @@ function ScheduleMeetingForm() {
     };
 
     try {
-      const response = await fetch('http://localhost:3001/api/schedule-meeting', {
+      const response = await fetch("/api/schedule", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
